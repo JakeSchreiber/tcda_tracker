@@ -5,8 +5,15 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+  background-image: url("../img/dartboard.jpg");
+  background-repeat: no-repeat;
 }
 
+
+/*html {*/
+
+
+/*}*/
 
 /*
  * Global add-ons
@@ -36,7 +43,7 @@ body {
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
-    top: 51px;
+    top: 25px;
     bottom: 0;
     left: 0;
     z-index: 1000;
@@ -79,6 +86,9 @@ body {
   .main {
     padding-right: 40px;
     padding-left: 40px;
+    background-color: rgba(255, 255, 255, 0.32);
+    margin-top: 25px;
+    margin-left: 0;
   }
 }
 .main .page-header {
