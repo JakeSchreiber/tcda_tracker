@@ -76,14 +76,17 @@ body {
 
 
 /*
- * Main content
+ * Standings content
  */
 
-.main {
+.standings {
   padding: 20px;
+  height: 75%;
+  /*overflow: scroll;*/
+  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  .main {
+  .standings {
     padding-right: 40px;
     padding-left: 40px;
     background-color: rgba(255, 255, 255, 0.32);
@@ -91,7 +94,7 @@ body {
     margin-left: 0;
   }
 }
-.main .page-header {
+.standings .page-header {
   margin-top: 0;
 }
 
@@ -119,3 +122,27 @@ body {
   border-radius: 50%;
 }
 
+
+/*Hero*/
+.hero {
+  height: 500px;
+  background-color: white;
+  margin-top: 25px
+}
+
+/*Calendar*/
+.calendar {
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: white;
+  background-color: black;
+}
+
+.footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  color: red;
+  background-color: black;
+}
