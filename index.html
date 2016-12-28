@@ -20,12 +20,21 @@
     <!-- Custom styles for starter-template -->
     <!--<link href="./css/starter-template.css" rel="stylesheet">-->
 
+    <link rel="stylesheet" href="./css/heroStyle.css"> <!-- Hero Style style -->
+
+
     <!-- Custom styles for dashboard -->
     <link href="./css/dashboard.css" rel="stylesheet">
+
+        <!-- Custom styles for reset -->
+    <link href="./css/reset.css" rel="stylesheet">
 
     <!-- Datatables -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.6/jq-2.2.3/pdfmake-0.1.18/dt-1.10.12/af-2.1.2/b-1.2.2/b-colvis-1.2.2/b-flash-1.2.2/b-html5-1.2.2/b-print-1.2.2/r-2.1.0/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.6/jq-2.2.3/pdfmake-0.1.18/dt-1.10.12/af-2.1.2/b-1.2.2/b-colvis-1.2.2/b-flash-1.2.2/b-html5-1.2.2/b-print-1.2.2/r-2.1.0/datatables.min.js"></script>
+
+        <!-- Custom styles for general site -->
+    <link href="./css/styles.css" rel="stylesheet">
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -97,16 +106,16 @@
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
-            <form class="navbar-form navbar-right">
+<!--             <form class="navbar-form navbar-right">
                 <input type="text" class="form-control" placeholder="Search...">
-            </form>
+            </form> -->
         </div>
     </div>
 </nav>
 
 <div class="container-fluid">
     <div class="row">
-        <!-- <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Standings</a></li>
@@ -126,15 +135,121 @@
                 <li><a href="">Board Meeting Minutes</a></li>
                 <li><a href="">New Member Incentive Program</a></li>
             </ul>
-        </div> -->
-        <div class="left-stack col-sm-6 col-sm-offset-1 col-md-7 col-md-offset-1">
+        </div>
+        <div class="mainContent left-stack col-sm-6 col-sm-offset-1 col-md-7 col-md-offset-1">
             <div class="hero">
-                <h1>Hero</h1>
+                <!-- <h1>Hero</h1> -->
+
+
+
+
+
+
+
+
+
+<header class="cd-header">
+        <div id="cd-logo"><a href="#0"><img src="assets/cd-logo.svg" alt="Logo"></a></div>
+
+        <nav class="cd-primary-nav">
+            <ul>
+                <li><a href="#0">Home</a></li>
+                <li><a href="#0">Portfolio</a></li>
+                <li><a href="#0">Contact</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header>
+
+    <section class="cd-hero">
+        <ul class="cd-hero-slider autoplay">
+            <li class="selected">
+                <div class="cd-full-width">
+                    <h2>Hero slider</h2>
+                    <p>A simple, responsive slideshow in CSS &amp; jQuery.</p>
+                    <a href="http://codyhouse.co/?p=675" class="cd-btn">Article &amp; Download</a>
+                </div> <!-- .cd-full-width -->
+            </li>
+
+            <li>
+                <div class="cd-half-width">
+                    <h2>Slide title here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+                    <a href="#0" class="cd-btn">Start</a>
+                    <a href="#0" class="cd-btn secondary">Learn More</a>
+                </div> <!-- .cd-half-width -->
+
+                <div class="cd-half-width cd-img-container">
+                    <img src="assets/tech-1.jpg" alt="tech 1">
+                </div> <!-- .cd-half-width.cd-img-container -->
+            </li>
+
+            <li>
+                <div class="cd-half-width cd-img-container">
+                    <img src="assets/tech-2.jpg" alt="tech 2">
+                </div> <!-- .cd-half-width.cd-img-container -->
+
+                <div class="cd-half-width">
+                    <h2>Slide title here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+                    <a href="#0" class="cd-btn">Start</a>
+                    <a href="#0" class="cd-btn secondary">Learn More</a>
+                </div> <!-- .cd-half-width -->
+                
+            </li>
+
+            <li class="cd-bg-video">
+                <div class="cd-full-width">
+                    <h2>Slide title here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+                    <a href="#0" class="cd-btn">Learn more</a>
+                </div> <!-- .cd-full-width -->
+
+                <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+                    <!-- video element will be loaded using jQuery -->
+                </div> <!-- .cd-bg-video-wrapper -->
+            </li>
+
+            <li>
+                <div class="cd-full-width">
+                    <h2>Slide title here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+                    <a href="#0" class="cd-btn">Start</a>
+                    <a href="#0" class="cd-btn secondary">Learn More</a>
+                </div> <!-- .cd-full-width -->
+            </li>
+        </ul> <!-- .cd-hero-slider -->
+
+        <div class="cd-slider-nav">
+            <nav>
+                <span class="cd-marker item-1"></span>
+                
+                <ul>
+                    <li class="selected"><a href="#0">Intro</a></li>
+                    <li><a href="#0">Tech 1</a></li>
+                    <li><a href="#0">Tech 2</a></li>
+                    <li><a href="#0">Video</a></li>
+                    <li><a href="#0">Image</a></li>
+                </ul>
+            </nav> 
+        </div> <!-- .cd-slider-nav -->
+    </section> <!-- .cd-hero -->
+
+
+
+
+
+
+
+
+
+
+
             </div>
 
             <div class="standings">
                 <div class="header-hero"></div>
-                <h1 class="page-header">TCDA Logo</h1>
+                <!-- <h1 class="page-header">TCDA Logo</h1> -->
+
 
                 <!--<div class="row placeholders">-->
                 <!--<div class="col-xs-6 col-sm-3 placeholder">-->
@@ -290,22 +405,23 @@
             </div>
         </div>
 
-        <div class="right-stack col-sm-2 col-md-3">
+        <!-- <div class="right-stack col-sm-2 col-md-3"> -->
+        <div class="newsFeed col-sm-2">
+            <div class="feedElement col-sm-2 col-md-3 calendar">
+                <h2>Events</h2>
+            </div>
+
+            <div class="feedElement col-sm-2 col-md-3 calendar">
+                <h2>News</h2>
+            </div>
+
+            <div class="feedElement col-sm-2 col-md-3 calendar">
+                <h2>Feed</h2>
+            </div>
 
 
         </div>
 
-        <div class="col-sm-2 col-md-3 calendar">
-            <h2>Events</h2>
-        </div>
-
-        <div class="col-sm-2 col-md-3 calendar">
-            <h2>News</h2>
-        </div>
-
-        <div class="col-sm-2 col-md-3 calendar">
-            <h2>Feed</h2>
-        </div>
 
 
     </div>
@@ -337,5 +453,12 @@
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+<!-- Modernizr for Hero Slideshow -->
+<script src="./js/modernizr.js"></script>
+
+<!-- main JS file includes Hero -->
+<script src="./js/main.js"></script> 
+
 </body>
 </html>
